@@ -1,0 +1,84 @@
+[
+  {
+    "index": 1,
+    "name": "WidgetClusters",
+    "about": "InkWell/PopupMenuButton/."
+  },
+  {
+    "index": 2,
+    "name": "Selectable Text",
+    "about": "It is a text where we can select it"
+  },
+  {
+    "index": 3,
+    "name": "Hero Widget",
+    "about": "When clicked on Widget, the user visual is never broken"
+  },
+  {
+    "index": 4,
+    "name": "SilverAppBar",
+    "about": "..."
+  },
+  {
+    "index": 5,
+    "name": "ExpansionTile",
+    "about": "It is used to expand a list"
+  },
+  {
+    "index": 5,
+    "name": "Wrap Widget",
+    "about": "It is used to solve the problem that is occured due to using Row widget for overflowing space"
+  },
+  {
+    "index": 6,
+    "name": "Time Picker",
+    "about": "It is a simple timePicker"
+  },
+  {
+    "index": 7,
+    "name": "PageView",
+    "about": "Sliding Page by tapping"
+  },
+  {
+    "index": 8,
+    "name": "Bottom Navigation",
+    "about": "It is bottom navigation widget with some icon at bottom"
+  },
+  {
+    "index": 9,
+    "name": "Stepper Widget",
+    "about": "It is a widget which is used for 'step by step procedure'"
+  },
+  {
+    "index": 10,
+    "name": "Expanded Widget",
+    "about": "It is used for searching information"
+  },
+  {
+  "index": 11,
+  "name": "WillPopScope",
+  "about": "It disables backpress button"
+  },
+  {
+  "index": 12,
+  "name": "FutureBuilder",
+  "about": "It is necessary for Future to be obtained earlier either through a change of state or change in dependencies.A Future can’t listen to a variable change. It’s a one-time response. Instead, you’ll need to use a Stream.FutureBuilder solves a square value and returns the result after 5 seconds, till then we show a progress indicator to the user"
+  },
+  {
+    "index": 13,
+    "name": "StreamBuilder",
+    "about": "StreamBuilder fetches some data more than once, like listening for location updates, playing music, stopwatch, etc. StreamBuilder shows a stopwatch, incrementing _count value by 1 every second"
+  },{
+    "index": 14,
+    "name": "GridPaper",
+    "about": "Creates a widget that draws a rectilinear grid of 1-pixel-wide lines"
+  },{
+  "index": 15,
+  "name": "FittedBox",
+  "about": "Scales and positions its child within itself according to fit."
+  },{
+  "index": 16,
+  "name": "Positioned",
+  "about": "Postioned does exactly what it sounds like, which is it arbitrarily positioned widgets on top of each othe"
+}
+]
