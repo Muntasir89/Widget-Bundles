@@ -80,5 +80,9 @@
   "index": 16,
   "name": "Positioned",
   "about": "Postioned does exactly what it sounds like, which is it arbitrarily positioned widgets on top of each othe"
+},{
+  "index": 17,
+  "name": "Animations",
+  "about": "It is a class with different animation widget"
 }
 ]

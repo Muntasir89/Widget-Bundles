@@ -15,6 +15,7 @@ class _InkWellPageState extends State<InkWellPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: Text(title),
         actions: [

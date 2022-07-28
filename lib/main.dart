@@ -7,7 +7,6 @@ import 'package:all_widget/Widgets/GridPaperPage.dart';
 import 'package:all_widget/Widgets/HeroWidgetPage.dart';
 import 'package:all_widget/Widgets/PageViewPage.dart';
 import 'package:all_widget/Widgets/PositionedPage.dart';
-import 'package:all_widget/Widgets/SearchBarPage.dart';
 import 'package:all_widget/Widgets/SilverAppBar.dart';
 import 'package:all_widget/Widgets/StepperWidgetPage.dart';
 import 'package:all_widget/Widgets/StreamBuilderPage.dart';
@@ -22,6 +21,7 @@ import 'package:all_widget/ProductDataModel.dart';
 import 'package:all_widget/Widgets/InkWell.dart';
 import 'package:all_widget/Widgets/SelectableTextPage.dart';
 
+import 'Widgets/Animations.dart';
 import 'Widgets/ExpansionTilePage.dart';
 import 'Widgets/WrapWidgetPage.dart';
 
@@ -200,6 +200,10 @@ class _MyHomePageState extends State<MyHomePage> {
     }else if(string == "Positioned"){
       Navigator.push(context, MaterialPageRoute(
           builder: (context) => PositionedWidget()
+      ));
+    }else if(string == "Animations"){
+      Navigator.push(context, MaterialPageRoute(
+          builder: (context) => Animations()
       ));
     }
   }
