@@ -1,3 +1,4 @@
+import 'package:all_widget/Widgets/Animated_list.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
@@ -37,12 +38,28 @@ class _AnimationsState extends State<Animations> with TickerProviderStateMixin {
         child: Center(
             child: Column(
               children: [
+                Text("Animated Align"),
                 Animatedalign(),
+                Text("Animated Builder"),
                 Animatedbuilder(),
+                Text("Animated Container"),
                 Animatedcontainer(),
+                Text("Animated Cross Fade"),
                 Animated_Cross_Fade(),
+                Text("Animated TextStyle"),
                 Animated_Default_TextStyle(),
-                Animated_Icon()
+                Text("Animated Icon"),
+                Animated_Icon(),
+                TextButton(
+                    onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => Animated_list()
+                      ));
+                    },
+                    child: const Text(
+                        "AnimatedList Widget"
+                    )
+                )
               ],
             )
         ),
@@ -196,4 +213,5 @@ class _AnimationsState extends State<Animations> with TickerProviderStateMixin {
       ),
     );
   }
+
 }
